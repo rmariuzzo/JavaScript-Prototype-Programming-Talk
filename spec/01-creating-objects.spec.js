@@ -11,17 +11,17 @@
 /* globals chai */
 var expect = chai.expect;
 
-describe('Creating objects from objects', function () {
+describe('Object', function () {
 
-  it('create object from nothing', function () {
+  it('can be created from nothing', function () {
     var obj = {};
     expect(obj).to.be.a('object');
   });
 
-  it('create object from another', function () {
-    var a = {};
-    var b = Object.create(a);
-    expect(b).to.be.a('object');
+  it('can be created from another object', function () {
+    var obj1 = {};
+    var obj2 = Object.create(obj1);
+    expect(obj2).to.be.a('object');
   });
 
 });
