@@ -1,0 +1,25 @@
+{
+  "name": "js-proto-prog-talk",
+  "version": "1.0.0",
+  "description": "Code used for the talk \"JavaScript Prototype Programming\" by @rmariuzzo ",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rmariuzzo/JavaScript-Prototype-Programming-Talk.git"
+  },
+  "author": "Rubens Mariuzzo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmariuzzo/JavaScript-Prototype-Programming-Talk/issues"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "karma": "^0.12.31",
+    "karma-chai": "^0.1.0",
+    "karma-jasmine": "^0.2.2",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}
