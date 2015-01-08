@@ -11,6 +11,7 @@
  */
 module.exports = function (config) {
   config.set({
+    reporters: ['progress'],
     browsers: ['PhantomJS'],
     frameworks: ['jasmine', 'chai'],
     files: [
